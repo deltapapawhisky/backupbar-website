@@ -104,7 +104,7 @@ export default function HomePage() {
 
       <main id="main-content">
         {/* ── Hero ─────────────────────────────────────────── */}
-        <section className="pt-32 pb-20 px-4">
+        <section className="pt-44 pb-20 px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
               Know When It&apos;s{' '}

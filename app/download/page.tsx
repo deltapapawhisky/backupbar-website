@@ -77,7 +77,7 @@ export default function DownloadPage() {
               Version 1.0.0
             </p>
             <a
-              href="https://github.com/deltapapawhisky/backup-bar/releases/latest/download/BackupBar-v1.0.app.zip"
+              href="https://github.com/deltapapawhisky/backup-bar/releases/latest/download/TimeMachineMonitor-v1.0.app.zip"
               className="inline-flex items-center gap-2.5 bg-safe-600 text-white px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-safe-700 transition-colors"
             >
               <Download className="w-5 h-5" />

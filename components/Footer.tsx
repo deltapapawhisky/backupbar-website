@@ -86,6 +86,11 @@ export function Footer({ compact = false }: FooterProps) {
                   Terms of Service
                 </Link>
               </li>
+              <li>
+                <a href="https://buymeacoffee.com/danielwhite" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">
+                  Buy Me a Coffee
+                </a>
+              </li>
             </ul>
           </div>
         </div>

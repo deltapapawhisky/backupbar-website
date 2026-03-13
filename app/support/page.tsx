@@ -61,7 +61,7 @@ export default function SupportPage() {
             </Link>
 
             <a
-              href="https://github.com/deltapapawhisky/TimeMachineMonitor/issues"
+              href="https://github.com/deltapapawhisky/backup-bar/issues"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow text-center"

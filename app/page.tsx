@@ -126,7 +126,7 @@ export default function HomePage() {
                 Download
               </Link>
               <a
-                href="https://github.com/deltapapawhisky/TimeMachineMonitor"
+                href="https://github.com/deltapapawhisky/backup-bar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors flex items-center gap-2.5"
@@ -296,13 +296,23 @@ export default function HomePage() {
               <p className="text-lg text-safe-100 mb-10 max-w-lg mx-auto">
                 Download Backup Bar for free.
               </p>
-              <Link
-                href="/download"
-                className="inline-flex items-center gap-2.5 bg-white text-safe-700 px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-safe-50 transition-colors shadow-lg"
-              >
-                <Download className="w-5 h-5" />
-                Download for macOS
-              </Link>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <Link
+                  href="/download"
+                  className="inline-flex items-center gap-2.5 bg-white text-safe-700 px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-safe-50 transition-colors shadow-lg"
+                >
+                  <Download className="w-5 h-5" />
+                  Download for macOS
+                </Link>
+                <a
+                  href="https://buymeacoffee.com/danielwhite"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 bg-white/20 text-white px-8 py-3.5 rounded-xl text-base font-semibold hover:bg-white/30 transition-colors"
+                >
+                  Buy Me a Coffee
+                </a>
+              </div>
             </div>
           </div>
         </section>
